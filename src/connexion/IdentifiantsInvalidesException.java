@@ -1,0 +1,7 @@
+package connexion;
+
+public class IdentifiantsInvalidesException extends Exception {
+    public IdentifiantsInvalidesException(String message) {
+        super(message);
+    }
+}
